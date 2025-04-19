@@ -92,51 +92,52 @@ Para este proyecto se implementó:
 ## :sunglasses: **Ejemplo de Entrada**
 ```
 ¿Cuantas personas desea ingresar? 9
-	Ingreso de datos de la persona N° 1
-	Ingrese el nombre: pablo 
-	Ingrese la edad: 4
-	Ingreso de datos de la persona N° 2
-	Ingrese el nombre: maria 
-	Ingrese la edad: 5
-	Ingreso de datos de la persona N° 3
-	Ingrese el nombre: juan 
-	Ingrese la edad: 18
-	Ingreso de datos de la persona N° 4
-	Ingrese el nombre: david 
-	Ingrese la edad: 60
-	Ingreso de datos de la persona N° 5
-	Ingrese el nombre: mateo 
-	Ingrese la edad: 12
-	Ingreso de datos de la persona N° 6
-	Ingrese el nombre: dieg0 
-	Ingrese la edad: 25 
-	Ingreso de datos de la persona N° 7
-	Ingrese el nombre: ana 
-	Ingrese la edad: 8
-	Ingreso de datos de la persona N° 8
-	Ingrese el nombre: alicia 
-	Ingrese la edad: 9
-	Ingreso de datos de la persona N° 9
-	Ingrese el nombre: jaime 
-	Ingrese la edad: 40 
-	Personas ingresadas
-	Persona [Nombre: pablo, Edad: 4]
-	Persona [Nombre: maria, Edad: 5]
-	Persona [Nombre: juan, Edad: 18]
-	Persona [Nombre: david, Edad: 60]
-	Persona [Nombre: mateo, Edad: 12]
-	Persona [Nombre: dieg0, Edad: 25]
-	Persona [Nombre: ana, Edad: 8]
-	Persona [Nombre: alicia, Edad: 9]
-	Persona [Nombre: jaime, Edad: 40]
-	Método busqueda binaria
-	Ingrese la edad a buscar: 18
-	Edad ingresada -> 18
-	4 | 5 | 8 | 9 | 12 | 18 | 25 | 40 | 60 |
-	Bajo= 5 Alto= 8 Centro= 4 Valor centro= 12 --> DERECHA
-	18 | 25 | 40 | 60 |
-	18 |
-	Bajo= 5 Alto= 5 Centro= 5 Valor centro= 18 -->ENCONTRADO
-	Persona con edad 18 encontrada
-	Persona [Nombre: juan, Edad: 18]
+Ingreso de datos de la persona N° 1
+Ingrese el nombre: pablo 
+Ingrese la edad: 4
+Ingreso de datos de la persona N° 2
+Ingrese el nombre: maria 
+Ingrese la edad: 5
+Ingreso de datos de la persona N° 3
+Ingrese el nombre: juan 
+Ingrese la edad: 18
+Ingreso de datos de la persona N° 4
+Ingrese el nombre: david 
+Ingrese la edad: 60 
+Ingreso de datos de la persona N° 5
+Ingrese el nombre: mateo 
+Ingrese la edad: 25
+Ingreso de datos de la persona N° 6
+Ingrese el nombre: diego 
+Ingrese la edad: 12
+Ingreso de datos de la persona N° 7
+Ingrese el nombre: ana 
+Ingrese la edad: 8
+Ingreso de datos de la persona N° 8
+Ingrese el nombre: alicia 
+Ingrese la edad: 9
+Ingreso de datos de la persona N° 9
+Ingrese el nombre: jaime 
+Ingrese la edad: 40 
+Personas ingresadas
+Persona [Nombre: Pablo, Edad: 4]
+Persona [Nombre: Maria, Edad: 5]
+Persona [Nombre: Juan, Edad: 18]
+Persona [Nombre: David, Edad: 60]
+Persona [Nombre: Mateo, Edad: 25]
+Persona [Nombre: Diego, Edad: 12]
+Persona [Nombre: Ana, Edad: 8]
+Persona [Nombre: Alicia, Edad: 9]
+Persona [Nombre: Jaime, Edad: 40]
+Método busqueda binaria
+Ingrese la edad a buscar: 18 
+Edad ingresada -> 18
+4 | 5 | 8 | 9 | 12 | 18 | 25 | 40 | 60 |
+Bajo= 5 Alto= 8 Centro= 4 Valor centro= 12 --> DERECHA
+18 | 25 | 40 | 60 |
+Bajo= 5 Alto= 5 Centro= 6 Valor centro= 25 --> IZQUIERDA
+18 |
+Bajo= 5 Alto= 5 Centro= 5 Valor centro= 18 -->ENCONTRADO
+Persona con edad 18 encontrada
+Persona [Nombre: Juan, Edad: 18]
 ```
