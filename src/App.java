@@ -17,6 +17,7 @@ public class App {
             System.out.println("Ingreso de datos de la persona N° " + (i + 1));
             System.out.print("Ingrese el nombre: ");
             String nombre = sc.nextLine();
+            nombre = Character.toUpperCase(nombre.charAt(0)) + nombre.substring(1);
             System.out.print("Ingrese la edad: ");
             int edad = sc.nextInt();
             while(edad < 0) {
